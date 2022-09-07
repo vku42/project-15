@@ -1,0 +1,399 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: #111111;
+    font-family: "Montserrat";
+    z-index: -1;
+
+}
+
+
+.contain{
+    
+}
+
+.cards_sec  {
+    padding: 0% 15%;
+
+}
+
+
+/* navigation */
+
+header {
+    padding: 2% 8%;
+    padding-bottom: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-left: 35%;
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #C91B28;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.hero-l {
+    width: 50%;
+}
+
+.hero-l img {
+    width: 600px;
+}
+
+.hero-r {
+    width: 50%;
+    color: #fff;
+}
+
+.hero-r h5 {
+    color: #C91B28;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.hero-r h1 {
+    font-size: 3rem;
+    margin-bottom: 10px ;
+}
+
+.hero-r p {
+    margin-bottom: 25px;
+}
+
+.aboutme {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #C91B28;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutme:hover {
+    transform: translateY(2px);
+}
+
+/* cards section */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.card {
+    margin-top: 50px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #434343;
+    color: #fff;
+
+     
+}
+
+.card-bk {
+    width:60%;
+    height: 90%;
+    z-index: 0;
+    left:  0px;
+    background-color: #181818;
+    position: absolute;
+}
+
+.red-card {
+    background-color: #C91B28;
+}
+
+.red-text {
+    color: #C91B28;
+}
+
+.card img {
+    margin-top: 50px;
+    width: 50px;
+}
+
+.card h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* cards bottom */
+.cards-down {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.cards-down-l {
+    z-index: 1;
+    width: 30%;
+    text-align: center;
+}
+
+.cards-down-l h3 {
+    padding-top: 30px;
+    font-size: 4rem;
+    color: #C91B28;
+    
+}
+
+.cards-down-r {
+    z-index: 1;
+    width: 70%;
+}
+
+.c-up {
+    display: flex;
+}
+
+.c-up div, .c-dwn div{
+    text-align: center;
+    width: 49%;
+    height: 80px;
+    background-color: #434343;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.c-up div h3, .c-dwn div h3 {
+    margin-top: 10px;
+    color: #C91B28;
+    font-size: 2rem;
+}
+
+.c-dwn {
+    display: flex;
+}
+
+
+/* my projects */
+
+.featured-p {
+    display: flex;
+    padding: 0% 15%;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.featured-p div h2 {
+    margin-bottom: 5px;
+}
+
+/* post up */
+
+.section-3 {
+    padding: 0% 15%;
+    align-items: center;
+}
+
+.post-up {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.shrink {
+    width: 50%;
+}
+
+.post-up div div {
+    background-color: #434343;
+    padding: 40px 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+
+.post-up div div img {
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+   
+}
+
+.post-up div h5 {
+    color: #C91B28;
+    margin-top: 8px;
+}
+
+
+/* contact */
+
+.cont {
+    padding: 0% 15%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    color: #fff;
+}
+
+.contact-l {
+    width: 80%;
+}
+
+.contact div h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* --------------------- */
+
+.foot-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.foot-nav h5 {
+    cursor: pointer;
+}
+
+/* ..................... */
+
+footer {
+    padding: 1% 15%;
+    margin-top: 15px;
+    background-color:  rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 50%;
+}
+
+.icon i {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+/* lets make it responsive */
+
+@media screen and (max-width:1132px) {
+    .section-3 {
+        padding: 0% 2%;
+    }
+
+    .hero-l img {
+        width: 350px;
+    }
+
+    .cards_sec  {
+        padding: 0% 2%;
+    
+    }
+
+    .hero-r h1 {
+        font-size: 2rem;
+    }
+
+    .hero-r p {
+        font-size: 0.8rem;
+    }
+
+    .contact div h2 {
+        font-size: 1rem;
+    }
+
+    .contact div p{
+        font-size: 0.8rem;
+    }
+
+    ul {
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    ul {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .hero-l {
+        width: 100%;
+    }
+
+    .hero-r {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-p {
+        flex-direction: column;
+    }
+
+    .featured-p div button{
+        margin-top: 15px;
+    }
+
+    .post-up {
+        flex-direction: column;
+    }
+
+    .shrink {
+        width: 100%;
+    }
+    
+
+}
